@@ -2,7 +2,7 @@
 ## Introduction
 Generate a heatmap by d3js function.
 
-The [Demo][]{:target="_blank"} page
+The [Demo][] page
 
 ## Requirements
 No.

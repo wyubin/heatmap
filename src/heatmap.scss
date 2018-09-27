@@ -1,0 +1,58 @@
+.heatmap{
+	position: relative;
+	&.highlighting{
+		text{
+			fill: rgba(0, 0, 0, 0.25);
+			&.active{
+				fill: black;
+			}
+		}
+	}
+	.node{
+		font:10px sans-serif;
+		circle{
+			fill:#fff;
+			stroke:steelblue;
+			stroke-width:1.5px;
+		}
+	}
+	.link{
+		fill:none;
+		stroke:#AAA;
+		stroke-width:1px;
+		shape-rendering:crispEdges;
+	}
+	.inner{
+		position:relative;
+	}
+	.info,.colDend,.rowDend,.colormap{
+		position:absolute;
+	}
+	text,.info{
+		font-size:0.75rem;
+		font-family:"Courier New", Courier, monospace;
+	}
+	text.select{
+		fill: red;
+		font-weight: bold;
+	}
+	.info{
+		left:0px;
+		top:0px;
+		margin:auto;
+		vertical-align:middle;
+		&>*{
+			margin:auto;
+			vertical-align:middle;
+		}
+	}
+	.colDend{
+		top:0;
+	}
+	.rowDend{
+		left:0;
+	}
+	.colormap{
+		shape-rendering:crispEdges
+	}
+}

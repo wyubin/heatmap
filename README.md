@@ -2,7 +2,7 @@
 ## Introduction
 Generate a heatmap by d3js function.
 
-The [<a href="http://wyubin.github.io/heatmap/" target="_blank">Demo</a>] page
+The [Demo][] page
 
 ## Requirements
 No.
@@ -33,3 +33,5 @@ heatmap_div.plot(data);
 * 0.0.1
 
 	Initiate the project and a base function
+
+[demo]:	http://wyubin.github.io/heatmap/ {:target="_blank"}

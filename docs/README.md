@@ -1,4 +1,4 @@
-# Demo of myfom
+# Demo of heatmap
 ## Pages
 * [index][]
 

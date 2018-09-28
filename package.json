@@ -1,0 +1,11 @@
+{
+	"name" : "app",
+	"version" : "0.0.1",
+	"style":{
+		"heatmap.min.css":["./heatmap.scss","../../lib/mytooltip.scss"]
+	},
+	"browser":{
+		"heatmap.min.js":"./heatmap.js"
+	},
+	"args":{}
+}

@@ -1,11 +1,23 @@
 {
-	"name" : "app",
-	"version" : "0.0.1",
-	"style":{
-		"heatmap.min.css":["./heatmap.scss","../../lib/mytooltip.scss"]
-	},
-	"browser":{
-		"heatmap.min.js":"./heatmap.js"
-	},
-	"args":{}
+  "name": "heatmap",
+  "version": "1.0.0",
+  "description": "Generate a heatmap by d3js function.",
+  "main": "heatmap.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyubin/heatmap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyubin/heatmap/issues"
+  },
+  "homepage": "https://github.com/wyubin/heatmap#readme"
 }

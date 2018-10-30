@@ -9,6 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browser":{
+	  "heatmap.min.js":"./heatmap.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wyubin/heatmap.git"
@@ -19,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/wyubin/heatmap/issues"
   },
-  "homepage": "https://github.com/wyubin/heatmap#readme"
+  "homepage": "https://github.com/wyubin/heatmap#readme",
+  "dependencies": {
+		"jsStdlib": "wyubin/jsStdlib",
+		"spa_tools": "wyubin/spa_tools",
+		"file-saver": "^1.3.3"
+  }
 }

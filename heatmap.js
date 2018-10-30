@@ -1,19 +1,19 @@
-require('../../lib/stdlib.array.js');
-require('../../lib/stdlib.String.js');
-require('../../lib/stdlib.Array.stat.js');
-require('../../lib/stdlib.Array.layout.js');
-require('../../lib/stdlib.HTMLElement.js');
-require('../../lib/stdlib.SVGElement.js');
-require('../../lib/stdlib.HTMLFormElement.js');
+require('jsStdlib/stdlib.array.js');
+require('jsStdlib/stdlib.String.js');
+require('jsStdlib/stdlib.Array.stat.js');
+require('jsStdlib/stdlib.Array.layout.js');
+require('jsStdlib/stdlib.HTMLElement.js');
+require('jsStdlib/stdlib.SVGElement.js');
+require('jsStdlib/stdlib.HTMLFormElement.js');
 
 var extend = require('util')._extend,
-	figue = require('../../lib/figue.js'),
-	saveAs = require('../../lib/FileSaver.js').saveAs;
-	mytooltip = require('../../lib/mytooltip.js'),
-	events_reg = require('../../lib/events_reg.js');
+	figue = require('./figue.js'),
+	saveAs = require('file-saver/FileSaver.js').saveAs;
+	mytooltip = require('spa_tools/mytooltip.js'),
+	events_reg = require('spa_tools/events_reg.js');
 
 require('./heatmap.scss');
-require('../../lib/mytooltip.scss');
+require('spa_tools/mytooltip.scss');
 /**
 * create heatmap with hierachy trees and color map
 * @constructor
